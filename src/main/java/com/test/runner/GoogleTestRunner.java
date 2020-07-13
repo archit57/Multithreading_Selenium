@@ -20,7 +20,7 @@ public class GoogleTestRunner {
 		int chromeCount = Integer.parseInt(System.getProperty("chrome"));
 		int firefoxCount = Integer.parseInt(System.getProperty("firefox"));
 		
-		System.out.println("total chrome : " + chromeCount + " and " + "total firefox : " + firefoxCount);
+		System.out.println("total chrome : " + chromeCount + " and " + "total firefox instances are : " + firefoxCount);
 
 		for (int i = 0, j = 0; i < chromeCount || j < firefoxCount; i++, j++) {
 			System.out.println("threads started.....");
